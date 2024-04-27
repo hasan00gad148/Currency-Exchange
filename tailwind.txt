@@ -1,0 +1,68 @@
+ npm install -D tailwindcss postcss autoprefixer
+ npx tailwindcss init -p
+
+[
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+],
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+      colors: {
+        ghostWhite: '#F8F8FF',
+        navyBlue: '#003366',
+        slateGray: '#708090',
+        electricBlue: '#007FFF',
+        silver: '#C0C0C0',
+        
+      //========================================
+        aliceBlue: '#F0F8FF',
+        charcoal: '#36454F',
+        coolGray: '#8C92AC',
+        cyberYellow: '#FFD300',
+        crimsonRed: '#DC143C',
+       
+      // TikTok Marketing Partners
+      black: '#000000',
+      turquoise: '#74f0ed',
+      brightRed: '#ea445a',
+
+      // Bold by Nature
+      darkGreenBackground: '#172d13',
+      lighterGreen: '#d76f30',
+      orange: '#6bb77b',
+
+      // Amour
+      teal: '#5ac3b0',
+      goldenYellow: '#de5935',
+      whiteBackground: '#f7cd46',
+
+      // The Authentic Brief
+      beige: '#fdf5df',
+      blue: '#5ebec4',
+      brightPink: '#f92c85',
+
+      // Soft Tones (general use)
+      offWhite: '#fdf5df',
+      gray: '#808080',
+      red: '#ff0000',
+
+      // Pantone's Classic Blue
+      classicBlue: '#0f4c81',
+
+      // Vintage Color Palettes
+      vintage1: '#b19cd9',
+      vintage2: '#f9a875',
+      vintage3: '#a8d8ea',
+      vintage4: '#f2c9b3',
+      }
